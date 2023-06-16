@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9e7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/icons8_circled_a_50"
+            app:srcCompat="@drawable/icons8_circled_a_50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Application"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi ini dibuat untuk memenuhi Tugas Aplikasi Komputasi Bergerak yang diampu oleh Alif Finandhita, S.Kom, M.T."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi sederhana untuk menampilkan daftar lokasi tempat makanan favorit dengan menggunakan Google Maps."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
